@@ -19,9 +19,5 @@
     "chalk": "^4.1.0",
     "semver": "^7.3.5"
   },
-  "devDependencies": {},
-  "jest": {
-    "cacheDirectory": "node_modules/.cache/jest",
-    "testEnvironment": "node"
-  }
+  "devDependencies": {}
 }
