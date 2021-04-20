@@ -1,0 +1,27 @@
+{
+  "name": "dependabot-automerge",
+  "version": "1.0.0",
+  "description": "automatically merge dependabot PRs",
+  "main": "src",
+  "scripts": {},
+  "bin": {
+    "dependabot-automerge": "src/bin.js"
+  },
+  "keywords": [
+    "auto-merge",
+    "automerge",
+    "dependabot",
+    "pull-requests"
+  ],
+  "author": "Jonathan Ong <me@jongleberry.com> (http://jongleberry.com)",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "semver": "^7.3.5"
+  },
+  "devDependencies": {},
+  "jest": {
+    "cacheDirectory": "node_modules/.cache/jest",
+    "testEnvironment": "node"
+  }
+}
