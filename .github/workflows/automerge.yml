@@ -18,7 +18,7 @@ env:
   # NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
 jobs:
-  test:
+  automerge:
     # runs-on: self-hosted
     runs-on: ubuntu-latest
 

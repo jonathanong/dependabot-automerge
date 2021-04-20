@@ -15,8 +15,9 @@ env:
   # NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
 jobs:
-  test:
-    runs-on: self-hosted
+  lint:
+    # runs-on: self-hosted
+    runs-on: ubuntu-latest
 
     strategy:
       matrix:
