@@ -6,8 +6,8 @@ Unlike other methods of automatic merging dependabot PRs which generally rely on
 this template creates a single cron job for your entire organization. The benefits of this are:
 
 - A centralized codebase for Dependabot merging rules for your entire organization; you don't have to maintain rules in every repository
-- A single codebase to maintain automatic Dependabot merging; you don't have to control 
 - Decoupling Dependabot merging rules from the affected codebase; this avoids issues like CI/CD that may trigger on a Dependency merging rule change
+- Efficient use of GitHub Actions minutes - no polling is done and you could spend less than a minute in GitHub Actions minutes every 5 minutes in a large organization
 
 Use the best strategy for your organization.
 
