@@ -4,10 +4,10 @@ const semver = require('semver')
 Object.assign(exports, {
   MERGE: '@dependabot squash and merge',
   REBASE: '@dependabot rebase',
-  isValidVersionChange
+  isMajorVersionChange
 })
 
-function isValidVersionChange (pr) {
+function isMajorVersionChange (pr) {
   const match = /from\s+(\S+)\s+to\s+(\S+)/ig.exec(pr.title)
   if (!match) return false
   const from = match[1]

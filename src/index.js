@@ -13,7 +13,7 @@ const {
   approvePRQuery
 } = require('./github')
 const {
-  isValidVersionChange,
+  isMajorVersionChange,
   MERGE
 //   REBASE
 } = require('./dependabot')
@@ -52,7 +52,7 @@ async function handlePR (pr) {
     return
   }
 
-  if (!isValidVersionChange(pr)) {
+  if (!isMajorVersionChange(pr)) {
     console.log(chalk.red(' - Major version change or invalid version change detected, skipping.'))
     return
   }
