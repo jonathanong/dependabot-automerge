@@ -7,7 +7,7 @@ this template creates a single cron job for your entire organization. The benefi
 
 - A centralized codebase for Dependabot merging rules for your entire organization; you don't have to maintain rules in every repository
 - Decoupling Dependabot merging rules from the affected codebase; this avoids issues like CI/CD that may trigger on a Dependency merging rule change
-- Efficient use of GitHub Actions minutes - no polling is done and you could spend less than a minute in GitHub Actions minutes every 5 minutes in a large organization
+- Efficient use of GitHub Actions minutes - there is no polling and you could spend less than a minute in GitHub Actions minutes every 5 minutes in a large organization
 
 Use the best strategy for your organization.
 
